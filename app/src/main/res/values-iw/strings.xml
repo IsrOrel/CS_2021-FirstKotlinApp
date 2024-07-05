@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Orel Restaurant</string>
+    <string name="drinks_title">משקאות:</string>
+    <string name="heiniken_text">בירה..............................................15$</string>
+    <string name="wine_text">יין...................................................15$</string>
+    <string name="cola_text">קולה זירו.........................................2$</string>
+    <string name="food_title">אוכל:</string>
+    <string name="chips_text">ציפס...............................................2$</string>
+    <string name="hotdog_text">נקניקיה בלחמניה............................2$</string>
+    <string name="reserve_table">הזמן שולחן</string>
+    <string name="pizza_text">פיצה...............................................2$</string>
+    <string name="welcome_message">ברוך הבא אל Bar &amp; More</string>
+    <string name="about_message">" כמות סוגי בירות שלא ראיתם מעולם ואוכל מסביב לעולם מקווים שתהנו :)"</string>
+    <string name="watch_menu">"התפריט שלנו "</string>
+    <string name="chips_name">ציפס</string>
+    <string name="hotdog_name">נקניקיה בלחמניה</string>
+    <string name="pizza_name">פיצה</string>
+    <string name="hotdog_desc">נקניקיה בלחמניה עם כל התוספות השוות</string>
+    <string name="chips_desc">ציפס טרי עם התבלין הסודי שלנו</string>
+    <string name="pizza_desc">פיצה חמה ישר מהטאבון עם תוספות לבחירתכם</string>
+    <string name="back_btn">חזור</string>
+    <string name="reserve_desc">הזמן שולחן על מנת להינות בבר הכי טוב בעולם!</string>
+    <string name="number_of_guests">מספר אורחים:</string>
+    <string name="number_of_vegan_guests">מספר אורחים טבעוניים:</string>
+    <string name="preffered_paymant_mathod">שיטת תשלום מועדפת:</string>
+    <string name="cash">מזומן</string>
+    <string name="credit">אשראי</string>
+    <string name="first_name">שם פרטי:</string>
+    <string name="last_name">שם משפחה:</string>
+    <string name="phone_number">מספר טלפון:</string>
+    <string name="email">אימייל:</string>
+    <string name="select_date">בחר תאריך:</string>
+    <string name="select_date_hint">כאן יופיע התאריך שתבחר</string>
+    <string name="select_time">בחר שעה:</string>
+    <string name="i_m_ready">אני מוכן</string>
+    <string name="first_name_hint">הכנס כאן את שמך הפרטי</string>
+    <string name="last_name_hint">הכנס כאן את שם המשפחה שלך</string>
+    <string name="phone_number_hint">הכנס כאן את מספר הטלפון שלך</string>
+    <string name="email_hint">הכנס כאן את המייל שלך</string>
+    <string name="error_invalid_guests">בחר בבקשה כמות אורחים תקינה</string>
+    <string name="error_enter_name">בבקשה הכנס את שמך הפרטי</string>
+    <string name="error_enter_phone">בבקשה הכנס את מספר הטלפון שלך</string>
+    <string name="error_phone_format">מספר הטלפון אמור להתחיל בספרות  05</string>
+    <string name="error_enter_email">בבקשה הכנס את המייל שלך</string>
+    <string name="error_invalid_email">בבקשה הכנס כתובת אימייל תקינה</string>
+    <string name="error_title">עצור!</string>
+    <string name="user_name_format">שם:  %1$s %2$s</string>
+    <string name="user_phone_format">מספר טלפון: %1$s</string>
+    <string name="user_email_format">אימייל: %1$s</string>
+    <string name="user_guests_format">מס\' אורחים: %1$s</string>
+    <string name="user_vegan_guests_format">מס\' אורחים טבעוניים: %1$s</string>
+    <string name="user_time_format">שעה: %1$s</string>
+    <string name="user_date_format">תאריך: %1$s</string>
+    <string name="payment_cash">מזומן</string>
+    <string name="payment_credit">אשראי</string>
+    <string name="dialog_positive_button">נראה טוב!</string>
+    <string name="menu_explain">"ברוך הבא אל התפריט שלנו, לחץ על המוצרים לתמונות ומידע נוסף :) "</string>
+    <string name="heiniken_desc">תיהנו מרעננות הבירות הקרות שלנו, המוגשות בכוסות החתימה שלנו. גלו מגוון רחב של אפשרויות, כולל:
+היינקן/
+גינס/
+IPA (אייל פייל אייל)/
+לאגר/
+בלאנק/
+פאולנר
+</string>
+    <string name="wine_desc">תהנו מהיין העשיר והטרי שלנו רשימת היינות:\nמרלו
+פינו נואר/
+סוביניון בלאן/
+זינפנדל/
+מלבק/
+ריזלינג/
+שירה / שיראז/
+רוזה</string>
+    <string name="cola_desc">גם לנהגים מותר להינות , קולה קרה מוגשת עם נענע קרח ולימון</string>
+    <string name="heiniken_name">בירה</string>
+    <string name="wine_name">יין</string>
+    <string name="cola_name">קוקה קולה</string>
+</resources>

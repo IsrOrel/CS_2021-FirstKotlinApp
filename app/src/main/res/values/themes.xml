@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/bar_red</item>
+        <item name="colorPrimaryDark">@color/bar_dark_red</item>
+        <item name="colorAccent">@color/bar_accent</item>
+
+        <!-- Add other customizations here -->
+    </style>
+
+    <!-- Define the base theme for OrelRestaurant -->
+    <style name="Base.Theme.OrelRestaurant" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/bar_red</item>
+        <item name="colorPrimaryDark">@color/bar_dark_red</item>
+        <item name="colorAccent">@color/bar_accent</item>
+    </style>
+
+    <!-- Reference the base theme in the main theme -->
+    <style name="Theme.OrelRestaurant" parent="Base.Theme.OrelRestaurant" />
+</resources>

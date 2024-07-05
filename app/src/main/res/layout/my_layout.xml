@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
+    android:background="@drawable/nbb">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp">
+
+        <TextView
+            android:id="@+id/drinks_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/drinks_title"
+            android:textColor="@color/bar_accent"
+            android:textSize="25sp"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Heiniken -->
+        <ImageButton
+            android:id="@+id/Heiniken"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/drinks_title"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/hbr"
+            android:scaleType="fitXY"
+            android:background="@color/transparent_color"
+            />
+
+        <TextView
+            android:id="@+id/heiniken_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/Heiniken"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/Heiniken"
+            android:text="@string/heiniken_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"/>
+
+        <!-- Prigat -->
+        <ImageButton
+            android:id="@+id/Prigat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Heiniken"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/prigat"
+            android:scaleType="fitXY"
+            android:background="@color/transparent_color"/>
+
+        <TextView
+            android:id="@+id/prigat_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/Prigat"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/Prigat"
+            android:text="@string/wine_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"/>
+
+        <!-- Cola -->
+        <ImageButton
+            android:id="@+id/cola"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/Prigat"
+            android:layout_marginTop="16dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/colabr"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_color"/>
+
+        <TextView
+            android:id="@+id/cola_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/cola"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/cola"
+            android:text="@string/cola_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"/>
+
+        <!-- Food section -->
+        <TextView
+            android:id="@+id/food_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/food_title"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/cola"/>
+
+        <!-- Chips -->
+        <ImageButton
+            android:id="@+id/chips"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/food_title"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/chipsbg"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_color"/>
+
+        <TextView
+            android:id="@+id/chips_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/chips"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/chips"
+            android:text="@string/chips_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"/>
+
+        <!-- Hotdog section -->
+        <ImageButton
+            android:id="@+id/hotdog"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/chips"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/hotdogbr"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_color"/>
+
+        <TextView
+            android:id="@+id/hotdog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/hotdog"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/hotdog"
+            android:text="@string/hotdog_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"/>
+
+        <!-- New image below hot dog -->
+        <ImageButton
+            android:id="@+id/pizza"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@id/hotdog"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/hotdog"
+            android:src="@drawable/pizzabr"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_color"/>
+        <TextView
+            android:id="@+id/pizza_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/pizza"
+            android:layout_marginStart="10dp"
+            android:layout_alignTop="@id/pizza"
+            android:text="@string/pizza_text"
+            android:textColor="@color/bar_accent"
+            android:textSize="20sp"
+            />
+
+        <!-- Reserve a table button -->
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve_table"
+            android:textSize="16sp"
+            android:drawableStart="@drawable/baseline_table_restaurant_24"
+            android:drawableTint="@color/purple_200"
+            android:drawablePadding="8dp"
+            android:textColor="@color/purple_200"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/pizza"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/rounded_button"/>
+
+    </RelativeLayout>
+</ScrollView>

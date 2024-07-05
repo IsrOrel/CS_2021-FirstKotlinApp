@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#8C54F6</color>
+    <color name="light_blue">#09AAFF</color>
+    <color name="transparent_color">#00FFFFFF</color>
+    <color name="bar_red">#8B0000</color> <!-- Dark Red -->
+    <color name="bar_dark_red">#660000</color> <!-- Darker Red -->
+    <color name="bar_accent">#FFFFFF</color> <!-- White -->
+    <color name="semi">#33000000</color>
+</resources>

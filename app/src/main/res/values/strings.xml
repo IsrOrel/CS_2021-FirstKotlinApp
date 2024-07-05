@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Orel Restaurant</string>
+    <string name="drinks_title">Drinks:</string>
+    <string name="heiniken_text">beer.............................................$15</string>
+    <string name="wine_text">wine............................................$15</string>
+    <string name="cola_text">coca cola......................................$2</string>
+    <string name="food_title">Food:</string>
+    <string name="chips_text">Chips............................................$2</string>
+    <string name="hotdog_text">Hotdog..........................................$2</string>
+    <string name="pizza_text">pizza.............................................$2</string>
+    <string name="reserve_table">Reserve a table</string>
+    <string name="welcome_message">Welcome to Bar &amp; More</string>
+    <string name="about_message">Our bar served amount of beer you never seen before \n and food around the world \n hope you enjoy</string>
+    <string name="watch_menu">Watch Our Menu</string>
+    <string name="chips_name">Chips</string>
+    <string name="hotdog_name">Hotdog</string>
+    <string name="pizza_name">pizza</string>
+    <string name="hotdog_desc">Delicious hotdog with all the fixings.</string>
+    <string name="chips_desc">Freshly fries with our secret seasoning.</string>
+    <string name="pizza_desc">Freshly baked pizza with your favorite toppings.</string>
+    <string name="back_btn">Back</string>
+    <string name="reserve_desc">Reserve a table to enjoy the best bar in the world!</string>
+    <string name="number_of_guests">Number of guests:</string>
+    <string name="number_of_vegan_guests">Number of vegan guests:</string>
+    <string name="preffered_paymant_mathod">preffered paymant mathod:</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit</string>
+    <string name="first_name">First Name:</string>
+    <string name="first_name_hint">Enter your first name</string>
+    <string name="last_name">Last Name:</string>
+    <string name="last_name_hint">Enter your last name</string>
+    <string name="phone_number">Phone Number:</string>
+    <string name="phone_number_hint">Enter your phone number</string>
+    <string name="email">Email:</string>
+    <string name="email_hint">Enter your email</string>
+    <string name="select_date">Select Date:</string>
+    <string name="select_date_hint">Select Date</string>
+    <string name="select_time">Select Time:</string>
+    <string name="i_m_ready">I\'m Ready</string>
+    <string name="error_invalid_guests">Please choose a valid number of guests.</string>
+    <string name="error_enter_name">Please enter your first name.</string>
+    <string name="error_enter_phone">Please enter your phone number.</string>
+    <string name="error_phone_format">Phone number should start with \'05\'.</string>
+    <string name="error_enter_email">Please enter your email address.</string>
+    <string name="error_invalid_email">Please enter a valid email address.</string>
+    <string name="error_title">Error</string>
+    <!-- User information format strings -->
+    <string name="user_name_format">Name: %1$s %2$s</string>
+    <string name="user_phone_format">Phone: %s</string>
+    <string name="user_email_format">Email: %s</string>
+    <string name="user_guests_format">Guests: %s</string>
+    <string name="user_vegan_guests_format">Vegan Guests: %s</string>
+    <string name="user_time_format">Time: %s</string>
+    <string name="user_date_format">Date: %s</string>
+    <string name="payment_cash">Cash</string>
+    <string name="payment_credit">Credit</string>
+    <string name="dialog_positive_button">Looks Good</string>
+    <string name="menu_explain">Welcome to our menu,  press on the product  for an image and more information :)</string>
+    <string name="heiniken_desc">Savor the crisp refreshment of our ice-cold beers, served in our signature glasses. Explore a wide range of options, including:\nHeineken\nGuinness\nIPA (India Pale Ale)\nLager\nBlanc\nPaulaner\n</string>
+    <string name="wine_desc">Indulge in a rich selection of wines, from the bold elegance of Cabernet Sauvignon to the crisp allure of Chardonnay. Explore a variety of options including:\nMerlot\nPinot Noir\nSauvignon Blanc\nZinfandel\nMalbec\nRiesling\nSyrah/Shiraz\nRosé</string>
+    <string name="cola_desc">Quench your thirst with our classic cola, served chilled and bubbling with irresistible flavor.</string>
+    <string name="heiniken_name">Beer</string>
+    <string name="wine_name">Wine</string>
+    <string name="cola_name">Coca Cola</string>
+
+
+</resources>
